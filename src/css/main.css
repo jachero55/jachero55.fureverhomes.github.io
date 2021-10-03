@@ -122,7 +122,12 @@ header nav span {
 }
 .cat-hero .buy-info h3 {
   text-align: left;
-  padding-left: 11rem;
+  padding-left: 2.5rem;
+}
+@media (min-width: 768px) {
+  .cat-hero .buy-info h3 {
+    padding-left: 11rem;
+  }
 }
 
 .contact-hero {
@@ -797,7 +802,7 @@ footer .copyright .copy-right a:first-child {
 }
 
 .search-btn {
-  padding: 0.3rem 1.5rem;
+  padding: 0rem 1.5rem;
   background-color: #E94F37;
   opacity: 0.8;
 }
@@ -824,7 +829,7 @@ body {
   font-size: 1.5rem;
   position: relative;
   min-height: 100%;
-  padding-bottom: 1200px;
+  padding-bottom: 1100px;
   font-family: "Barlow", sans-serif;
 }
 @media (min-width: 768px) {
