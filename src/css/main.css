@@ -122,11 +122,11 @@ header nav span {
 }
 .cat-hero .buy-info h3 {
   text-align: left;
-  padding-left: 2.5rem;
+  margin-left: 2.5rem;
 }
 @media (min-width: 768px) {
   .cat-hero .buy-info h3 {
-    padding-left: 11rem;
+    margin-left: 11rem;
   }
 }
 
@@ -477,13 +477,13 @@ footer .copyright .copy-right a:first-child {
 }
 @media (min-width: 768px) {
   .cat-hero form .form-group input {
-    width: 70%;
+    width: 50%;
     padding: 1.5rem 0;
   }
 }
 @media (min-width: 992px) {
   .cat-hero form .form-group input {
-    width: 60%;
+    width: 70%;
     padding: 2rem 0;
   }
 }
@@ -829,7 +829,7 @@ body {
   font-size: 1.5rem;
   position: relative;
   min-height: 100%;
-  padding-bottom: 1100px;
+  padding-bottom: 1200px;
   font-family: "Barlow", sans-serif;
 }
 @media (min-width: 768px) {
