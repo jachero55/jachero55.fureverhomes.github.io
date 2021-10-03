@@ -357,7 +357,7 @@ footer .copyright .copy-right a:first-child {
   background-color: #f2f2f2;
   padding: 2rem;
   width: 300px;
-  top: 6.5%;
+  top: 7%;
   height: 100vh;
   text-align: center;
   display: none;
@@ -394,16 +394,36 @@ footer .copyright .copy-right a:first-child {
 .list ul a {
   display: block;
   text-decoration: none;
-  padding: 4rem 0;
+  padding: 1.5rem 0;
   font-size: 3rem;
   color: #444;
   font-family: "Rajdhani", sans-serif;
+}
+@media (min-width: 768px) {
+  .list ul a {
+    padding: 3rem 0;
+  }
+}
+@media (min-width: 992px) {
+  .list ul a {
+    padding: 4rem 0;
+  }
 }
 .list ul a:hover {
   opacity: 0.7;
 }
 .list ul a:nth-of-type(1) {
-  margin-top: 10rem;
+  margin-top: 3rem;
+}
+@media (min-width: 768px) {
+  .list ul a:nth-of-type(1) {
+    margin-top: 6rem;
+  }
+}
+@media (min-width: 992px) {
+  .list ul a:nth-of-type(1) {
+    margin-top: 10rem;
+  }
 }
 .list ul .active {
   color: #E94F37;
@@ -864,9 +884,14 @@ img {
 }
 .featured .image-featured h2 {
   font-size: 3rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   color: #E94F37;
   font-family: "Cairo", sans-serif;
+}
+@media (min-width: 768px) {
+  .featured .image-featured h2 {
+    margin-bottom: 2rem;
+  }
 }
 @media (min-width: 768px) {
   .featured .image-featured .featured-container {

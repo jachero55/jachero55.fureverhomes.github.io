@@ -100,9 +100,13 @@ img {
 
     h2 {
       font-size: 3rem;
-      margin-bottom: 2rem;
+      margin-bottom: 1rem;
       color: #E94F37;
       font-family: fonts.$logo-font;
+
+      @media(min-width: 768px) {
+        margin-bottom: 2rem;
+      }
     }
 
     .featured-container {
