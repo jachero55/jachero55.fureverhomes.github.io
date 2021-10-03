@@ -9,7 +9,7 @@ class FetchImages {
   
   getImages = async ()=> {
     try{
-      let response = await fetch('/json/data.json');
+      let response = await fetch('https://raw.githubusercontent.com/jachero55/jachero55.fureverhomes.github.io/main/json/data.json?token=ALCZ77UTI2H7QALVR5QA3D3BMJPTI');
       let data = await response.json();
       let items = data.cats;
       this.storedItems.storeAllKitty(items);

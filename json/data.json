@@ -200,19 +200,5 @@
       "description": "Meet Ellie. This little sweetie is truly one of a kind! She loves to play, snuggle, and give lots of puppy kisses. Her fur is oh so soft and you'll love pampering her and petting her as much as possible. You'll just love taking her out on walks around the block and you will truly be a pretty picture at the dog park together.",
       "image": "https://images.pexels.com/photos/266784/pexels-photo-266784.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
     }
-  ],
-    "backgroundImages": [
-      {
-        "id": 1,
-      "image": ""
-      },
-      {
-        "id": 2,
-      "image": ""
-      },
-      {
-        "id": 3,
-      "image": ""
-      }
-    ]
+  ]
 }
