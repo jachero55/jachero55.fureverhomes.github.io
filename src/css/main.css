@@ -844,7 +844,7 @@ img {
 
 .featured {
   background-color: #f2f2f2;
-  padding: 7rem 0;
+  padding: 2rem 0;
 }
 .featured .image-featured {
   width: 92vw;
@@ -853,11 +853,13 @@ img {
 @media (min-width: 768px) {
   .featured .image-featured {
     width: 90vw;
+    padding: 4rem 0;
   }
 }
 @media (min-width: 992px) {
   .featured .image-featured {
     width: 65vw;
+    padding: 6rem 0;
   }
 }
 .featured .image-featured h2 {
