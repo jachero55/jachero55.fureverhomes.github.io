@@ -1,0 +1,104 @@
+@use '../abstract/_fonts';
+#conatiner-menus {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  .menuDonate {
+    margin-right: 2.5rem;
+
+    button {
+      padding: .5rem 2rem;
+      font-size: 1.7rem;
+      background-color: #E94F37;
+      color: #ffffff;
+      border: none;
+
+      &:nth-of-type(2) {
+        background: transparent;
+        border: 1px solid #E94F37;
+        color: #222;
+        margin-left: 1rem;
+      }
+    }
+  }
+}
+
+#menu-icon, #menu-close, .close-modal {
+  border: none;
+  background: transparent;
+  font-size: 2.9rem;
+  cursor: pointer;
+  color: #E94F37;
+  @media (min-width: 768px) {
+    font-size: 3.3rem;
+  }
+
+  &:hover {
+    opacity: .7;
+    transition: .3s ease-in-out;
+  }
+}
+
+#menu-close {
+  display: none;
+}
+
+#close-btn-container {
+  display: flex;
+  border-bottom: 1px solid #ccc;
+  justify-content: flex-end;
+  margin-bottom: 1.5rem;
+  .close-modal {
+    display: block;
+    margin-right: 2rem;
+  }
+}
+
+.goTopBtn {
+  .goTop {
+    color: #222;
+    font-size: 3rem;
+    background: transparent;
+    border: 1px solid #E94F37;
+    right: 0;
+    display: block;
+    position: fixed;
+    top: 70%;
+    z-index: 8888;
+    margin-right: 2rem;
+    padding: 1rem 1rem;
+    border-radius: .3rem;
+    display: none;
+
+    @media(min-width: 768px) {
+      display: block;
+    }
+  }
+}
+
+.back-btn {
+  margin-left: 0rem;
+  display: block;
+  text-align: center;
+  @media(min-width: 768px) {
+    margin-left: 2rem;
+    display: inline;
+  }
+}
+
+.learnMore, .search-btn {
+  padding: 1px 3rem;
+  color: #ffffff;
+  font-size: 2.3rem;
+  background: transparent;
+  border: 1px solid #E94F37;
+  font-weight: 800;
+  margin-top: 1rem;
+}
+
+.search-btn {
+  padding: 1rem 3rem;
+  background-color: #E94F37;
+  opacity: .8;
+}

@@ -1,0 +1,41 @@
+@use '../abstract/_fonts';
+header {
+  background-color: #f2f2f2;
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+  padding: .5rem 0;
+  position: fixed;
+  width: 100%;
+  z-index: 99999;
+  top: 0;
+  nav {
+    width: 90vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    // padding: 15px 5px;
+    @media (min-width: 768px) {
+      width: 90vw;
+    }
+
+    @media (min-width: 992px) {
+      width: 65vw;
+    }
+
+    #logo {
+      font-size: 2.5rem;
+      font-family: 'Jockey One', sans-serif;
+      font-weight: 700;
+      letter-spacing: .3rem;
+      color: #444;
+
+      @media (min-width: 768px) {
+        font-size: 3.7rem;
+      }
+    }
+
+    span {
+      color: #E94F37;
+    }
+  }
+}
