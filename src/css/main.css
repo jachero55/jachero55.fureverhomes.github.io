@@ -181,12 +181,13 @@ footer .footer-helper .top-footer {
 footer .footer-helper .top-footer .top-footer-container div {
   padding: 1.5rem;
   margin-bottom: 1.5rem;
-  border-left: 1px dotted #CF5C36;
+  border-left: none;
 }
 @media (min-width: 768px) {
   footer .footer-helper .top-footer .top-footer-container div {
     padding: 4rem;
     margin-bottom: 0rem;
+    border-left: 1px dotted #CF5C36;
   }
 }
 footer .footer-helper .top-footer .top-footer-container div h4 {
@@ -318,10 +319,10 @@ footer .copyright .copy-right a:first-child {
   transition: all 0.3s ease;
 }
 #delivery-overlay .modal-container {
-  width: 100%;
+  width: 90vw;
   background-color: #f2f2f2;
   padding: 2.5rem;
-  margin: 270px auto;
+  margin: 140px auto;
   z-index: 99999;
   height: auto;
   transition: all 0.3s ease;
@@ -329,6 +330,11 @@ footer .copyright .copy-right a:first-child {
   animation-name: modalSlide;
   animation-duration: 1s;
   display: none;
+}
+@media (min-width: 768px) {
+  #delivery-overlay .modal-container {
+    margin: 270px auto;
+  }
 }
 #delivery-overlay .modal-container h2 {
   color: #E94F37;
@@ -357,7 +363,7 @@ footer .copyright .copy-right a:first-child {
   background-color: #f2f2f2;
   padding: 2rem;
   width: 300px;
-  top: 7%;
+  top: 8%;
   height: 100vh;
   text-align: center;
   display: none;
@@ -374,11 +380,14 @@ footer .copyright .copy-right a:first-child {
 .list ul .menuDonate button {
   display: block;
   margin: 0 auto;
-  padding: 0.5rem 2rem;
+  padding: 0.3rem 2rem;
   background-color: #E94F37;
   color: #ffffff;
   border: none;
-  font-size: 1.6rem;
+  font-size: 2.5rem;
+}
+.list ul .menuDonate button:nth-of-type(1) {
+  margin-top: 3rem;
 }
 .list ul .menuDonate button:nth-of-type(2) {
   background: transparent;
@@ -476,7 +485,12 @@ footer .copyright .copy-right a:first-child {
 
 .contact-flex {
   background-color: #f2f2f2;
-  padding: 4rem;
+  padding: 2rem 0;
+}
+@media (min-width: 768px) {
+  .contact-flex {
+    padding: 7rem 0;
+  }
 }
 .contact-flex .contact-container {
   width: 92vw;
@@ -497,7 +511,7 @@ footer .copyright .copy-right a:first-child {
   flex-basis: 50%;
   margin-bottom: 2rem;
 }
-@media (min-width: 992px) {
+@media (min-width: 768px) {
   .contact-flex .contact-container .contact-info-left {
     margin-bottom: 0rem;
   }
@@ -512,7 +526,7 @@ footer .copyright .copy-right a:first-child {
 }
 .contact-flex .contact-container .contact-info-right form {
   background-color: #fff;
-  padding: 5rem;
+  padding: 3rem;
   border-radius: 0.3rem;
 }
 .contact-flex .contact-container .contact-info-right form .form-group label {
@@ -584,7 +598,7 @@ footer .copyright .copy-right a:first-child {
 }
 .slider-container .inner-image-slider .slider .card-details h2 {
   color: #fff;
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: 800;
   letter-spacing: 0.3rem;
   font-family: "Lemonada", cursive;
@@ -810,7 +824,7 @@ body {
   font-size: 1.5rem;
   position: relative;
   min-height: 100%;
-  padding-bottom: 925px;
+  padding-bottom: 960px;
   font-family: "Barlow", sans-serif;
 }
 @media (min-width: 768px) {
@@ -991,7 +1005,12 @@ img {
 
 .flex {
   background-color: #f2f2f2;
-  padding: 7rem 0;
+  padding: 2rem 0;
+}
+@media (min-width: 768px) {
+  .flex {
+    padding: 7rem 0;
+  }
 }
 .flex .flex-basis-container {
   width: 92vw;
@@ -1040,7 +1059,12 @@ img {
 
 .flex-basis {
   background-color: #f2f2f2;
-  padding: 7rem 0;
+  padding: 2rem 0;
+}
+@media (min-width: 768px) {
+  .flex-basis {
+    padding: 7rem 0;
+  }
 }
 .flex-basis .flex-basis-container {
   width: 92vw;

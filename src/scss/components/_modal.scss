@@ -11,10 +11,10 @@
   transition: all 0.3s ease;
 
   .modal-container {
-    width: 100%;
+    width: 90vw;
     background-color: #f2f2f2;
     padding: 2.5rem;
-    margin: 270px auto;
+    margin: 140px auto;
     z-index: 99999;
     height: auto;
     transition: all 0.3s ease;
@@ -22,6 +22,10 @@
     animation-name: modalSlide;
     animation-duration: 1s;
     display: none;
+
+    @media (min-width: 768px) {
+      margin: 270px auto;
+    }
 
     h2 {
       color: #E94F37;

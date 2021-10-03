@@ -35,7 +35,11 @@
 
 .contact-flex {
   background-color: #f2f2f2;
-  padding: 4rem;
+  padding: 2rem 0;
+
+  @media(min-width: 768px) {
+    padding: 7rem 0;
+  }
 
   .contact-container {
     width: 92vw;
@@ -58,13 +62,9 @@
       margin-bottom: 2rem;
 
       @media(min-width: 768px) {
-        // margin-bottom: 0rem;
-      }
-  
-      @media(min-width: 992px) {
         margin-bottom: 0rem;
       }
-
+  
       h2 {
         color: #E94F37;
         letter-spacing: .3rem;
@@ -76,7 +76,7 @@
       flex-basis: 50%;
       form {
         background-color: #fff;
-        padding: 5rem;
+        padding: 3rem;
         border-radius: .3rem;
         
         .form-group {

@@ -57,11 +57,12 @@ footer {
           padding: 1.5rem;
           // border-radius: .5rem;
           margin-bottom: 1.5rem;
-          border-left: 1px dotted #CF5C36;
+          border-left: none;
 
           @media (min-width: 768px) {
             padding: 4rem;
             margin-bottom: 0rem;
+            border-left: 1px dotted #CF5C36;
           }
         
 

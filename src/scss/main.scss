@@ -29,7 +29,7 @@ body {
   font-size: fonts.$body-font-size;
   position: relative;
   min-height: 100%;
-  padding-bottom: 925px;
+  padding-bottom: 960px;
   font-family: 'Barlow', sans-serif;
 
   @media (min-width: 768px) {
@@ -209,24 +209,23 @@ img {
 
 .flex {
   background-color: #f2f2f2;
-  padding: 7rem 0;
+  padding: 2rem 0;
+
+  @media(min-width: 768px) {
+   padding: 7rem 0;
+  }
 
   .flex-basis-container {
-    // display: flex;
-    // gap: 4rem;
-    // align-items: center;
     width: 92vw;
     margin: 0 auto;
 
     @media(min-width: 768px) {
-      // align-items: center;
       width: 90vw;
     }
 
     @media(min-width: 992px) {
       display: flex;
       gap: 4rem;
-      // align-items: center;
       width: 65vw;
     }
     
@@ -270,24 +269,23 @@ img {
 
 .flex-basis {
   background-color: #f2f2f2;
-  padding: 7rem 0;
+  padding: 2rem 0;
+
+  @media(min-width: 768px) {
+    padding: 7rem 0;
+  }
 
   .flex-basis-container {
-    // display: flex;
-    // gap: 4rem;
-    // align-items: center;
     width: 92vw;
     margin: 0 auto;
 
     @media(min-width: 768px) {
-      // align-items: center;
       width: 90vw;
     }
 
     @media(min-width: 992px) {
       display: flex;
       gap: 4rem;
-      // align-items: center;
       width: 65vw;
     }
     
