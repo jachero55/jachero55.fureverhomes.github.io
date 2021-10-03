@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Caveat:wght@600&family=Jockey+One&family=Lemonada:wght@700&family=Rajdhani:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Barlow:wght@200&family=Caveat:wght@600&family=Jockey+One&family=Lemonada:wght@700&family=Rajdhani:wght@300&family=Walter+Turncoat&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200&family=Gemunu+Libre:wght@300&family=Roboto+Condensed:wght@300&display=swap");
 header {
   background-color: #f2f2f2;
@@ -426,7 +426,7 @@ footer .copyright .copy-right a:first-child {
   display: block;
 }
 .cat-hero form .form-group input {
-  width: 100%;
+  width: 70%;
   padding: 1rem 0;
   outline: none;
   text-indent: 1rem;
@@ -666,11 +666,11 @@ footer .copyright .copy-right a:first-child {
 }
 #conatiner-menus .menuDonate {
   margin-right: 2.5rem;
-  visibility: hidden;
+  display: none;
 }
 @media (min-width: 768px) {
   #conatiner-menus .menuDonate {
-    visibility: visible;
+    display: block;
   }
 }
 #conatiner-menus .menuDonate button {
@@ -763,9 +763,14 @@ footer .copyright .copy-right a:first-child {
 }
 
 .search-btn {
-  padding: 1rem 3rem;
+  padding: 0.3rem 1.5rem;
   background-color: #E94F37;
   opacity: 0.8;
+}
+@media (min-width: 768px) {
+  .search-btn {
+    padding: 1rem 3rem;
+  }
 }
 
 * {
@@ -777,7 +782,7 @@ footer .copyright .copy-right a:first-child {
 html {
   font-size: 62.5%;
   scroll-behavior: smooth;
-  font-family: "Rajdhani", sans-serif;
+  font-family: "Barlow", sans-serif;
   font-weight: 700;
 }
 
@@ -786,6 +791,7 @@ body {
   position: relative;
   min-height: 100%;
   padding-bottom: 870px;
+  font-family: "Barlow", sans-serif;
 }
 @media (min-width: 768px) {
   body {
@@ -803,6 +809,7 @@ p {
   line-height: 2rem;
   color: #444;
   letter-spacing: 0.8px;
+  font-family: "Barlow", sans-serif;
 }
 @media (min-width: 768px) {
   p {
@@ -813,6 +820,10 @@ p {
 
 h2 {
   font-family: "Cairo", sans-serif;
+}
+
+h3, h4, h5, h6 {
+  font-family: "Walter Turncoat", cursive;
 }
 
 button {

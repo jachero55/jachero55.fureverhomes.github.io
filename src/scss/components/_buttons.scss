@@ -101,7 +101,11 @@
 }
 
 .search-btn {
-  padding: 1rem 3rem;
+  padding: .3rem 1.5rem;
   background-color: #E94F37;
   opacity: .8;
+
+  @media(min-width: 768px) {
+    padding: 1rem 3rem;
+  }
 }
