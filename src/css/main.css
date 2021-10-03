@@ -371,6 +371,26 @@ footer .copyright .copy-right a:first-child {
     margin-top: 0rem;
   }
 }
+.list ul .menuDonate button {
+  display: block;
+  margin: 0 auto;
+  padding: 0.5rem 2rem;
+  background-color: #E94F37;
+  color: #ffffff;
+  border: none;
+  font-size: 1.6rem;
+}
+.list ul .menuDonate button:nth-of-type(2) {
+  background: transparent;
+  border: 1px solid #E94F37;
+  color: #333;
+  margin-top: 2rem;
+}
+@media (min-width: 768px) {
+  .list ul .menuDonate {
+    display: none;
+  }
+}
 .list ul a {
   display: block;
   text-decoration: none;
@@ -646,6 +666,12 @@ footer .copyright .copy-right a:first-child {
 }
 #conatiner-menus .menuDonate {
   margin-right: 2.5rem;
+  visibility: hidden;
+}
+@media (min-width: 768px) {
+  #conatiner-menus .menuDonate {
+    visibility: visible;
+  }
 }
 #conatiner-menus .menuDonate button {
   padding: 0.5rem 2rem;

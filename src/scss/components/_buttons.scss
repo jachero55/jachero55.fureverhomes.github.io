@@ -3,10 +3,13 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-
   .menuDonate {
     margin-right: 2.5rem;
-
+    visibility: hidden;
+    
+    @media (min-width: 768px) {
+      visibility: visible;
+    }
     button {
       padding: .5rem 2rem;
       font-size: 1.7rem;

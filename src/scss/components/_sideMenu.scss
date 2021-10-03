@@ -23,6 +23,29 @@
       margin-top: 0rem;
     }
 
+    .menuDonate {
+      button {
+        display: block;
+        margin: 0 auto;
+        padding: .5rem 2rem;
+        background-color: #E94F37;
+        color: #ffffff;
+        border: none;
+        font-size: 1.6rem;
+
+        &:nth-of-type(2) {
+          background: transparent;
+          border: 1px solid #E94F37;
+          color: #333;
+          margin-top: 2rem;
+        }
+      }
+
+      @media (min-width: 768px) {
+        display: none;
+      }
+    }
+
     a {
       display: block;
       text-decoration: none;
