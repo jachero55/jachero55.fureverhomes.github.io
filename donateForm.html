@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Photo Gallery</title>
+  <title>Donate</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="css/style.css" >
 </head>
@@ -28,49 +28,84 @@
   </header>
   <div class="list">
     <ul>
-      <a href="index.html">Home</a>
+      <a href="index.html" class="active">Home</a>
       <a href="about.html">About</a>
       <a href="cats.html">Our Cats</a>
-      <a href="contact.html" class="active">Contact Us</a>
+      <a href="contact.html">Contact Us</a>
+      <div class="menuDonate">
+        <button>Donate</button>
+        <button>Adope</button>
+      </div>
     </ul>
   </div>
-  <!-- <div class="home-hero">
-    <div class="home-hero-banner">
-        <h1>Welcome To KittyCuteGallery</h1>
-        <h2>Cuteness Reloaded</h2>
+  <div class="donate-hero">
+  <h2>Donate</h2>
   </div>
-  </div> -->
-
-  <section class="contact-hero">
-    <article class="buy-info">
-      <h2>Contact Us</h2>
-    </article>
-  </section>
-  <section class="contact-flex">
-    <article class="contact-container">
-      <div class="contact-info-left">
-        <h2>Email</h2>
-        <p>anacondagym@yahoo.com</p>
-        <h2>Phone</h2>
-        <p>407 345 234 8765</p>
-        <h2>Address</h2>
-        <p>4205 long key lane, Winter Park, FL, 50345</p>
+<!-- donate -->
+<section class="donate-section">
+  <article>
+    <div class="left-container">
+      <h2>Donate Today</h2>
+      <p>Thank you for your contribution. Nothing is too little to donate. We do appreciate your support.</p>
+      <div id="amount">
+        <ul>
+          <li>$5</li>
+          <li>$10</li>
+          <li>$20</li>
+          <li>$30</li>
+          <li>$40</li>
+          <li>$50</li>
+          <li>$60</li>
+          <li>$70</li>
+          <li>$80</li>
+          <li>$90</li>
+          <li>$100</li>
+          <li>Other</li>
+        </ul>
+        <form>
+          <div class="form-group">
+            <label for="amount">Offer Amount</label>
+            <input type="number" id="amount" >
+          </div>
+          <div class="form-group">
+            <label for="comment">Comment</label>
+            <textarea id="test" rows="4" cols="50" ></textarea>
+          </div>
+        </form>
       </div>
-        <div class="contact-info-right">
-          <form>
-            <div class="form-group">
-             <label for="name">Name</label>
-             <input type="text" name="name" id="name" placeholder="John Doe" />
-           </div>
-           <div class="form-group">
-             <label for="email">Email</label>
-             <input type="email" name="email" id="email" placeholder="johndoe@gmail.com" />
-           </div>
-             <button class="contact-btn">Contact Us Today</button>
-          </form>
+    </div>
+    <div class="right-container">
+      <h2>Payment Details</h2>
+      <p>We accept all these cards:</p>
+      <form>
+        <div class="form-group">
+          <label for="amount">First Name</label>
+          <input type="text" id="firstName" >
         </div>
-    </article>
-  </section>
+        <div class="form-group">
+          <label for="amount">last Name</label>
+          <input type="text" id="lastName" >
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" >
+        </div>
+        <div class="form-group">
+          <label for="phone">Phone</label>
+          <input type="phone" id="phone" >
+        </div>
+        <div class="form-group">
+          <label for="cardNumber">Credit/Debit Card Number</label>
+          <input id="ccn" type="tel" inputmode="numeric" pattern="[0-9\s]{13,19}" autocomplete="cc-number" maxlength="19" placeholder="xxxx xxxx xxxx xxxx">
+        </div>
+        <div class="form-group">
+          <label for="number">CVV</label>
+          <input id="cv" type="tel" inputmode="numeric" pattern="[0-9\s]{13,19}" autocomplete="cc-number" maxlength="19" placeholder="xxxx xxxx xxxx xxxx">
+        </div>
+      </form>
+    </div>
+  </article>
+</section>
   <div class="goTopBtn">
     <button class="goTop"><i class="fa fa-arrow-up"></i></button>
   </div>
@@ -149,6 +184,7 @@
   <script defer src="./src/js/storage.js"></script>
   <script defer src="./src/js/ui.js"></script>
   <script defer src="./src/js/search.js"></script>
+  <script defer src="./src/js/modal.js"></script>
   <script defer src="./src/js/app.js"></script>
 </body>
 </html>

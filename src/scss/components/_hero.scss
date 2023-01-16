@@ -1,5 +1,5 @@
 @use '../abstract/_fonts';
-#gallery-hero, .home-hero, .more-cuteness, .cat-hero, .about-hero, .contact-hero {
+#gallery-hero, .home-hero, .more-cuteness, .cat-hero, .about-hero, .contact-hero, .donate-hero {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(https://images.pexels.com/photos/5864729/pexels-photo-5864729.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
   width: 100%;
   height: 40vh;
@@ -92,4 +92,10 @@
 .contact-hero {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://images.pexels.com/photos/826349/pexels-photo-826349.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
   height: 45vh;
+}
+
+.donate-hero {
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+		url(https://images.pexels.com/photos/1490908/pexels-photo-1490908.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+		height: 45vh;
 }

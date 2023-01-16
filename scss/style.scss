@@ -1,14 +1,14 @@
-@use 'abstract/_colors';
-@use 'abstract/_fonts';
-@use 'components/_header';
-@use 'components/_hero';
-@use 'components/_footer';
-@use 'components/_modal';
-@use 'components/_sideMenu';
-@use 'components/_form';
-@use 'components/_slider';
-@use 'components/_buttons';
-@use 'components/donate';
+@import 'fonts';
+@import 'header';
+@import 'hero';
+@import 'slider';
+@import 'modal';
+@import 'sideMenu';
+@import 'form';
+@import 'donate';
+@import 'footer';
+@import 'buttons';
+
 
 @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Barlow:wght@200&family=Caveat:wght@600&family=Jockey+One&family=Lemonada:wght@700&family=Rajdhani:wght@300&family=Walter+Turncoat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200&family=Gemunu+Libre:wght@300&family=Roboto+Condensed:wght@300&display=swap');
@@ -20,14 +20,14 @@
 }
 
 html {
-  // font-size: fonts.$font-size;
+  font-size: $font-size;
   scroll-behavior: smooth;
   font-family: 'Barlow', sans-serif;
   font-weight: 700;
 }
 
 body {
-  // font-size: fonts.$body-font-size;
+  font-size: $body-font-size;
   position: relative;
   min-height: 100%;
   padding-bottom: 1200px;
@@ -57,7 +57,7 @@ p {
 }
 
 h2 {
-  // font-family: fonts.$logo-font;
+  font-family: $logo-font;
 }
 
 h3, h4, h5, h6 {
@@ -66,7 +66,7 @@ h3, h4, h5, h6 {
 
 button {
   letter-spacing: .3rem;
-  // font-family: fonts.$logo-font;
+  font-family: $logo-font;
   cursor: pointer;
   background-color: #ffffff;
   border-radius: .5rem;
@@ -104,7 +104,7 @@ img {
       font-size: 3rem;
       margin-bottom: 1rem;
       color: #E94F37;
-      // font-family: fonts.$logo-font;
+      font-family: $logo-font;
 
       @media(min-width: 768px) {
         margin-bottom: 2rem;
@@ -197,7 +197,7 @@ img {
     font-size: 2.5rem;
     color: #ffffff;
     margin-top: 1.3rem;
-    // font-family: fonts.$logo-font;
+    font-family: $logo-font;
 
     @media(min-width: 768px) {
       font-size: 3rem;
@@ -262,7 +262,7 @@ img {
         font-size: 3rem;
         margin-bottom: 1.5rem;
         color: #E94F37;
-        // font-family: fonts.$logo-font;
+        font-family: $logo-font;
       }
     }
   }
@@ -321,7 +321,7 @@ img {
         font-size: 3rem;
         margin-bottom: 2rem;
         color: #E94F37;
-        // font-family: fonts.$logo-font;
+        font-family: $logo-font;
       }
     }
   }
@@ -364,7 +364,7 @@ img {
       font-size: 3rem;
       margin: 1.5rem 0 1.8rem 0;
       color: #E94F37;
-      // font-family: fonts.$logo-font;
+      font-family: $logo-font;
     }
 
     margin: 0 auto;
